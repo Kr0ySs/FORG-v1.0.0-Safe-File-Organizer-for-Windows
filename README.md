@@ -1,6 +1,11 @@
 # FORG  
 **A quick, easy and safe file organizer for Windows**
 
+⚠️ **Note:** The current version of FORG (v1.0.0) has its user interface in **Portuguese (PT-BR)**.  
+An English interface is planned for a future release.
+
+---
+
 FORG is a lightweight Windows application designed to automatically organize files by type **without putting your system at risk**.  
 It was built for users who want a clean workspace but are afraid of breaking something important.
 
