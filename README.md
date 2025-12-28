@@ -9,8 +9,6 @@ An English interface is planned for a future release.
 FORG is a lightweight Windows application designed to automatically organize files by type **without putting your system at risk**.  
 It was built for users who want a clean workspace but are afraid of breaking something important.
 
-Unlike generic file organizers, FORG includes **Safe Mode**, confirmations, and system path protection by default.
-
 ---
 
 ## 🚀 Features
@@ -25,21 +23,6 @@ Unlike generic file organizers, FORG includes **Safe Mode**, confirmations, and 
 
 ---
 
-## 🔒 Safe Mode (Core Feature)
-
-Safe Mode is enabled by default and is the heart of FORG.
-
-When Safe Mode is active:
-- System-critical folders are blocked
-- Risky operations are prevented
-- The user is always warned before changes
-
-You can manually disable Safe Mode if you know exactly what you are doing — **with an extra confirmation step**.
-
-This ensures FORG is safe even for non-technical users.
-
----
-
 ## 🧠 How It Works
 
 1. Select a folder
@@ -51,54 +34,10 @@ This ensures FORG is safe even for non-technical users.
 
 ---
 
-## 🖼️ Example
-
-Downloads/
-├── photo.png
-├── video.mp4
-├── document.pdf
-
-After organizing:
-
-Downloads/
-├── PNG/
-│ └── photo.png
-├── MP4/
-│ └── video.mp4
-└── PDF/
-└── document.pdf
-
----
-
-## ❗ Important Notes
-
-- FORG does **not** rename your files  
-- Folders without files will not be processed  
-- System paths (like `C:\Windows`) are automatically blocked  
-- Always make a backup if organizing important data  
-
----
-
 ## 🧩 Requirements
 
 - Windows 10 or newer  
 - No Python installation required (standalone executable)
-
----
-
-## 📦 Download
-
-You can download the latest version from the **Releases** section:
-
-👉 **GitHub Releases**
-
----
-
-## 🛠️ Built With
-
-- Python  
-- Tkinter + ttk  
-- PyInstaller  
 
 ---
 
