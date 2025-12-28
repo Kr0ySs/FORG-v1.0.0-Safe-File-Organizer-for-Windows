@@ -1,0 +1,31 @@
+{
+  "title": "FORG — File Organizer",
+  "select_folder": "Select a folder",
+  "browse": "Browse",
+  "organize": "ORGANIZE",
+
+  "safe_checkbox": "Enable SAFE MODE (recommended)",
+  "safe_label": "SAFE MODE:",
+  "safe_enabled": "Enabled",
+  "safe_disabled": "Disabled",
+
+  "error_no_folder": "Error: no folder selected.",
+  "error_critical_path": "Error: system folders cannot be organized for safety reasons.",
+  "error_no_files": "Error: the selected folder contains no files to organize.",
+
+  "warning": "Warning",
+  "safe_disabled_warning": "SAFE MODE is DISABLED.\n\nReal files will be moved.\nDo you want to continue anyway?",
+
+  "confirmation": "Confirmation",
+  "confirm_action": "The following folder will be organized:\n\n{folder}\n\nThis action will move files inside this folder.\nIt is recommended to make a backup before continuing.\n\nDo you want to proceed?",
+
+  "operation_cancelled": "Operation cancelled by the user.",
+
+  "success_message": "✔ {files} files organized into {folders} folders.",
+
+  "safe_mode_active": "SAFE MODE is active. No files were moved.",
+
+  "unexpected_error": "Unexpected error: {error}",
+
+  "language": "Language"
+}

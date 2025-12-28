@@ -1,0 +1,31 @@
+{
+  "title": "FORG — Organizador de Arquivos",
+  "select_folder": "Selecione a pasta",
+  "browse": "Procurar",
+  "organize": "ORGANIZAR",
+
+  "safe_checkbox": "Ativar MODO SEGURO (recomendado)",
+  "safe_label": "MODO SEGURO:",
+  "safe_enabled": "Ativado",
+  "safe_disabled": "Desativado",
+
+  "error_no_folder": "Erro: nenhuma pasta selecionada.",
+  "error_critical_path": "Erro: por segurança, pastas do sistema não podem ser organizadas.",
+  "error_no_files": "Erro: a pasta não contém arquivos para organizar.",
+
+  "warning": "Atenção",
+  "safe_disabled_warning": "O MODO SEGURO está DESATIVADO.\n\nArquivos reais serão movidos.\nDeseja continuar mesmo assim?",
+
+  "confirmation": "Confirmação",
+  "confirm_action": "A seguinte pasta será organizada:\n\n{folder}\n\nEssa ação irá mover arquivos dentro dessa pasta.\nRecomenda-se fazer backup antes de continuar.\n\nDeseja continuar?",
+
+  "operation_cancelled": "Operação cancelada pelo usuário.",
+
+  "success_message": "✔ {files} arquivos organizados em {folders} pastas.",
+
+  "safe_mode_active": "MODO SEGURO ativo. Nenhum arquivo foi movido.",
+
+  "unexpected_error": "Erro inesperado: {error}",
+
+  "language": "Idioma"
+}

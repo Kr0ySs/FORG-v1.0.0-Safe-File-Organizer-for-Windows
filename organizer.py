@@ -3,6 +3,7 @@ import shutil
 
 SAFE_MODE = True  # MODO DE SEGURANÇA - NÃO MOVE ARQUIVOS
 
+
 def set_safe_mode(value: bool):
     global SAFE_MODE
     SAFE_MODE = value
@@ -16,14 +17,14 @@ def is_critical_path(path):
     path = os.path.abspath(path).lower()
 
     # raiz do disco (c:\, d:\ etc)
-    if len(path) == 3 and path[1:] == ":\\":  
+    if len(path) == 3 and path[1:] == ":\\":
         return True
 
     blocked_exact = [
         "c:\\windows",
         "c:\\program files",
         "c:\\program files (x86)",
-        "c:\\system volume information"
+        "c:\\system volume information",
     ]
 
     for blocked in blocked_exact:
@@ -36,13 +37,9 @@ def is_critical_path(path):
     return False
 
 
-
 def organize_folder(path):
     if SAFE_MODE:
-        raise RuntimeError(
-            "SAFE_MODE ativo. Nenhum arquivo foi movido. "
-            "Use apenas para testes."
-        )
+        raise RuntimeError("SAFE_MODE_ACTIVE")
 
     arquivos_movidos = 0
     pastas_criadas = set()
@@ -70,7 +67,7 @@ def organize_folder(path):
             nome_base, ext = os.path.splitext(nome_arquivo)
             destino_final = os.path.join(
                 pasta_destino,
-                f"{nome_base}_{contador}{ext}"
+                f"{nome_base}_{contador}{ext}",
             )
             contador += 1
 
@@ -80,4 +77,3 @@ def organize_folder(path):
         pastas_criadas.add(nome_pasta)
 
     return arquivos_movidos, len(pastas_criadas)
-
