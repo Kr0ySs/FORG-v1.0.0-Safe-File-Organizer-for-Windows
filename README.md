@@ -1,8 +1,6 @@
 # FORG  
-**A quick, easy and safe file organizer for Windows**
 
-⚠️ **Note:** The current version of FORG (v1.0.0) has its user interface in **Portuguese (PT-BR)**.  
-An English interface is planned for a future release.
+**A quick, easy and safe file organizer for Windows**
 
 ---
 
